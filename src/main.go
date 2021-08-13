@@ -29,4 +29,35 @@ func main() {
 	const baseCuadrado = 10
 	areaCuadrado := baseCuadrado * baseCuadrado
 	fmt.Println("Area cuadrado: ", areaCuadrado)
+
+	//Suma
+	x := 10
+	y := 10
+
+	result := x + y
+	fmt.Println("Suma", result)
+
+	//Resta
+	result = x - y
+	fmt.Println("Resta", result)
+
+	//Multiplicación
+	result = x * y
+	fmt.Println("Multiplicación", result)
+
+	//División
+	result = x / y
+	fmt.Println("División", result)
+
+	//Módulo
+	result = x % y
+	fmt.Println("Módulo", result)
+
+	//Incremental
+	x++
+	fmt.Println("Incremental", x)
+
+	//Decremental
+	x--
+	fmt.Println("Decremental", x)
 }
